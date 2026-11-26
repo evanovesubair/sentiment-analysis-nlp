@@ -1,0 +1,31 @@
+{
+  "Logistic Regression": {
+    "baseline_cv_accuracy": 0.9875,
+    "best_params": {
+      "clf__C": 100
+    },
+    "tuned_cv_accuracy": 0.9938,
+    "test_accuracy": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 1.0,
+    "test_f1": 1.0,
+    "test_samples": 120,
+    "external_accuracy": 0.6393,
+    "external_samples": 122
+  },
+  "Naive Bayes": {
+    "baseline_cv_accuracy": 0.9938,
+    "best_params": {
+      "clf__alpha": 0.1
+    },
+    "tuned_cv_accuracy": 0.9958,
+    "test_accuracy": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 1.0,
+    "test_f1": 1.0,
+    "test_samples": 120,
+    "external_accuracy": 0.6393,
+    "external_samples": 122
+  },
+  "saved_model": "Naive Bayes"
+}
